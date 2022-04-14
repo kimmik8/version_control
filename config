@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[alias]
+	history = log
+[remote "origin"]
+	url = https://github.com/kimmik8/version_control.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
