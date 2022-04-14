@@ -6,7 +6,7 @@
 	ignorecase = true
 	precomposeunicode = true
 [alias]
-	history = log
+	history = log --graph
 [remote "origin"]
 	url = https://github.com/kimmik8/version_control.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
